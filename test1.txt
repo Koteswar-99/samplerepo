@@ -1,0 +1,10 @@
+ Volume in drive C is OS
+ Volume Serial Number is 8A27-008A
+
+ Directory of C:\KOTI\DTPT\Git\MyProject
+
+08-10-2026  13:28    <DIR>          .
+08-10-2026  13:14    <DIR>          ..
+08-10-2026  13:28                 0 test1.txt
+               1 File(s)              0 bytes
+               2 Dir(s)  701,598,302,208 bytes free
