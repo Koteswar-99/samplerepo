@@ -1,11 +1,11 @@
-name: Node.js CI
+name: Test Workflow
 
 on:
   push:
-    branches: [ "master" ]
 
 jobs:
-  build:
+  Message:
     runs-on: ubuntu-latest
+    
     steps:
     - run: echo "Message"
