@@ -17,5 +17,7 @@ jobs:
           run: |
             java -version
             javac -version
+        - name: Run Java Program
+          run: |   
             javac Hello.java
             java Hello.java
