@@ -1,9 +1,0 @@
-name: Hello Workflow
-on:
-  push: null
-jobs:
-  build: null
-  runs-on: ubuntu-latest
-  steps:
-    - name: Display message
-      run: echo "Hello from GitHub Actions!"
