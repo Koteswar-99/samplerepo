@@ -4,6 +4,7 @@ on: push
 
 jobs:
     jobmessage:
+    runs-on: ubuntu-latest
     steps:
        - name: my step
         run: echo "This is GitHub Actions Workflow"
