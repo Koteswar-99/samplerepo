@@ -3,9 +3,9 @@ name: Test Workflow
 on:
   push:
 
-jobs:
-  Message:
-    runs-on: ubuntu-latest
-    
-    steps:
-    - run: echo "Message"
+  jobs:
+    MessageDisplay:
+      runs-on: ubuntu-latest
+
+      steps:
+        run: echo "This is GitHub Actions Workflow"
