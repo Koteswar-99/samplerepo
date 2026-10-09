@@ -1,11 +1,8 @@
 name: Test Workflow
-
 on:
-  push:
-
+  push: null
   jobs:
     MessageDisplay:
       runs-on: ubuntu-latest
-
       steps:
         run: echo "This is GitHub Actions Workflow"
