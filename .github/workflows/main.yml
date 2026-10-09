@@ -1,7 +1,9 @@
 name: sample workflow
 
-on: push:
+on: push
 
 jobs:
-    message:
-    run: echo "This is GitHub Actions Workflow"
+    jobmessage:
+    steps:
+       - name: my step
+        run: echo "This is GitHub Actions Workflow"
